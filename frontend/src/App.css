@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url('/background-trees.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #007bff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a, nav ul li button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+nav ul li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover, nav ul li button:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.credit-form, .credit-list, .transactions-list, .login-form, .register-form, .portfolio {
+    margin-bottom: 20px;
+}
+
+.credit-form h2, .credit-list h2, .transactions-list h2, .login-form h2, .register-form h2, .portfolio h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.credit-form label, .credit-form input, .credit-form button, .credit-list label, .credit-list input, .credit-list button, .login-form label, .login-form input, .login-form button, .register-form label, .register-form input, .register-form button, .portfolio label, .portfolio input, .portfolio button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.credit-form input, .credit-list input, .login-form input, .register-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.credit-form button, .credit-list button, .login-form button, .register-form button {
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.credit-form button:hover, .credit-list button:hover, .login-form button:hover, .register-form button:hover {
+    background: #218838;
+}
+
+.credit-list ul, .transactions-list ul, .portfolio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.credit-list li, .transactions-list li, .portfolio li {
+    padding: 10px;
+    background: #e9ecef;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.credit-list li div, .transactions-list li div, .portfolio li div {
+    margin-bottom: 5px;
+}
